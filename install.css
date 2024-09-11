@@ -1,0 +1,313 @@
+body {
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*#row{
+    overflow: auto;
+} Only for the upper navbar flow scroll */
+#block {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(43, 40, 40);
+    width: 1930px;
+    height: 38px;
+    position: fixed;
+}
+
+.all {
+    float: left;
+    display: block;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.all a {
+    text-decoration: none;
+    color: white;
+    font-size: small;
+    font-weight: 500;
+}
+
+.all:hover {
+    background-color: rgb(56, 53, 53);
+}
+
+.all:active {
+    background-color: rgb(15, 184, 15);
+}
+
+.one {
+    background-color: rgb(31, 165, 31);
+}
+
+.one:hover {
+    background-color: rgb(18, 184, 18);
+}
+
+#vertnav {
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    background-color: rgb(229, 233, 243);
+    overflow-y: scroll;
+    margin-top: 40px;
+}
+
+#php {
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#nav {
+    height: auto;
+    float: left;
+    margin-top: -40px;
+    list-style-type: none;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.same {
+    display: block;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    font-size: 15px;
+    padding-left: 40px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.same:hover {
+    background-color: rgb(100, 99, 99);
+}
+
+.same:active {
+    background-color: rgb(31, 165, 31);
+}
+
+.same:active a {
+    color: white;
+}
+
+.two {
+    background-color: rgb(48, 155, 48);
+}
+
+.two:hover {
+    background-color: rgb(48, 155, 48);
+}
+
+.two a {
+    color: white;
+}
+
+#home {
+    width: 80%;
+    background-color: white;
+    height: 600px;
+    float: right;
+}
+
+#han {
+    font-weight: 300;
+    font-size: 40px;
+    padding-top: 90px;
+    padding-left: 30px;
+    color: rgb(36, 35, 35);
+}
+
+#btn1 {
+    border: 1px solid white;
+    width: 95%;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 40px;
+    margin-top: -20px;
+}
+
+.btn2 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 100px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+}
+
+.btn3 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 90px;
+    font-size: 17px;
+    color: white;
+    font-weight: 400;
+    border-radius: 7px;
+    float: right;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.btn2:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn3:hover {
+    background-color: rgb(37, 190, 50);
+}
+
+.btn2 a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn3 a {
+    text-decoration: none;
+    color: white;
+}
+
+#inner {
+    width: 93%;
+    height: 200px;
+    border: none;
+    border-top: 0.5px solid rgb(228, 225, 225);
+    border-bottom: 0.5px solid rgb(231, 227, 227);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#han2 {
+    font-size: 30px;
+    padding-left: 0px;
+    color: rgb(36, 35, 35);
+}
+
+.dna {
+    line-height: 25px;
+}
+
+#inner5 {
+    width: 93%;
+    height: 230px;
+    border: none;
+    border-bottom: 0.5px solid rgb(231, 227, 227);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#uf {
+    line-height: 20px;
+}
+
+#inner6 {
+    width: 93%;
+    height: 230px;
+    border: none;
+    border-bottom: 0.5px solid rgb(231, 227, 227);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+#uff {
+    line-height: 25px;
+}
+
+#zar {
+    text-decoration: underline;
+    color: black;
+}
+
+#zar:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+#exam2 {
+    background-color: rgb(213, 214, 216);
+    width: 90%;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: inline-block;
+}
+#done2 {
+    width: 43%;
+    height: 120px;
+    border: 1px solid white;
+    margin-top: 50px;
+    margin-left: 5%;
+    background-color: white;
+    float: left;
+}
+#done3 {
+    width: 43%;
+    height: 120px;
+    border: 1px solid black;
+    float: right;
+    margin-top: 50px;
+    margin-right: 40px;
+    background-color:black;
+    color: white;
+}
+#is{
+    margin-left: 20px;
+}
+.btn7 {
+    background-color: rgb(33, 165, 44);
+    border: 1px solid rgb(23, 201, 38);
+    height: 45px;
+    width: 150px;
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    float: left;
+    cursor: pointer;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+.btn7 a {
+    text-decoration: none;
+    color: white;
+}
+#inner7{
+    width: 93%;
+    height: 230px;
+    border: none;
+    border-bottom: 0.5px solid rgb(231, 227, 227);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+#inner7{
+    width: 93%;
+    height: 230px;
+    border: none;
+    border-bottom: 0.5px solid rgb(231, 227, 227);
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
